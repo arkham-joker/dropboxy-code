@@ -1,0 +1,47 @@
+$grey:#c4c4c4;
+$bg_grey:#2e2e2e;
+ @media only screen and (max-width:718px){
+#navlinks,#signin_signout{
+visibility: hidden;
+}
+ }
+ @media only screen and (max-width:956px){
+    #vanilacontent{
+    margin-top: -19%!important;
+    padding: 0px!important;
+    margin-left: 10%;
+    }
+     }
+ #secondContentWidthDualslider{
+     div:not(:first-child){
+        float: left;
+        margin-left:5rem;
+        color: white;
+        margin-top: 1rem;
+        opacity: 0.5;
+        h1,p{
+            font-size: "25px";
+        }
+     }
+     
+ } 
+   #level2{
+       margin-left: 5rem;
+       color: white;
+h1,p{
+    font-size: "25px";
+}
+   }
+   #bottomlayer{
+       nav{
+           margin-top:3rem;
+        span{
+            font-size:16px;
+            margin-top: -5px;
+        }
+       }
+       li{
+           margin-top: -5px;
+       }
+       
+   }
