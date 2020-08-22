@@ -5,7 +5,8 @@ HOW TO RUN THIS PROJECT:
 its the raw code of dropboxy project of mine,(just src ad public folder),
 justdownload it and paste in somewhere ,run npm install to install node-modoules in that folder and then run npm start
 
-dependencies are as follow:
+DEPENDENCIES:
+
 axios,
 material design,
 redux,
