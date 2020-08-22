@@ -10,9 +10,11 @@ react-redux,
 react-router-dom,
 redux-thunk,
 node-sass,
-##################################################################################################################
+#################################################################################################################
 DESCRIPTION:
 this project uses below  reactjs concepts:
+
+
 STATELESS FUNCTION and MATERIAL UI:
 the entire of project is based on stateless functions which grid systems and other ui element are based on material-ui framework
 stateless function has been prefered because they use ECSCRIPT 5 and no need for convertion,while if Statefull component was implemented a convergion between ECscript 6 to 5 was needed that it means more loading time was needed;##################
