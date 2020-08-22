@@ -21,19 +21,22 @@ ASYNCHRONOUS FUNCTION AND REACT-REDUX:
 middleware is used for asynchronos functions(signin/signup)
 sending and getting info in login/logout processes have been done via sending rests by axios
 redux and react-redux hooks(useDispatch and use selectore) are used for generalizing a store for the entire project
-#########################################################################################
+#####################################################################################################################################
 REACT ROUTING:
 a protected route which use useContext and creatContext hook is used for implementing a protecting route procedure
 protected route implement a neccassary signin for navigating user from signin.js to loggeduser.js
+ routing has been implemented through below concepts:
+  ordinary routing=><route path='/' component={COMPONENt}/>
+  conditional rendering
+using render props in routing procedure...
+#####################################################################################################################################
+STYLING:
 some elements have been styled with sass and inline-styling
-
+#####################################################################################################################################
 transferring state and props has been done using below concepts:
 react-redux;
 history.push();
 useContext hook;
  OTHER HOOKS such as useEffect has been used in order to detect refreshing and mounting of pages,
- routing has been implemented through below concepts:
-  ordinary routing=><route path='/' component={COMPONENt}/>
-  conditional rendering
-using render props in routing procedure...
-s
+
+
