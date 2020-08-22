@@ -33,7 +33,7 @@ using render props in routing procedure...
 
 STYLING:
 some elements have been styled with sass and inline-styling
-#####################################################################################################################################
+#################################################################################################################
 transferring state and props has been done using below concepts:
 react-redux;
 history.push();
