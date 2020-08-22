@@ -37,7 +37,6 @@ protected route implement a neccassary signin for navigating user from signin.js
   conditional rendering
 using render props in routing procedure...
 #################################################################################################################
-
 STYLING:
 
 some elements have been styled with sass and inline-styling
