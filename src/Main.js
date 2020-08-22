@@ -6,15 +6,16 @@ import Signin from './LRcomponent/Signin';
 import Mainpage from '../src/Mainpage';
 import Loggeduser from './LRcomponent/loggeduser';
 import Notfound from '../src/Notfound';
+import PrivateRoute from './LRcomponent/PrivateRoute';
 const Home = () => {
     return (
         <div>
-        <Router >
+        <Router basename='/dropboxy/'>
             <Switch>
             <Route exact path='/' component={Mainpage}/>    
             <Route exact path='/signin' component={Signin}/>  
             <Route exact path='/signup' component={Signup}/>
-            <Route exact path='/signin/loggeduser' component={Loggeduser}/> 
+            <PrivateRoute exact path='/signin/loggeduser' component={Loggeduser}/>
             <Route component={Notfound}/> 
             </Switch>  
         </Router> 
